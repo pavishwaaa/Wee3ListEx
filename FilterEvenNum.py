@@ -11,12 +11,12 @@ for i in range(0, num):
     numList.append(element)
 
 
-def is_odd(num):
-    return num % 2 != 0
+def is_odd(n):
+    return n % 2 != 0
 
 
-def is_even(num):
-    return num % 2 == 0
+def is_even(n):
+    return n % 2 == 0
 
 
 oddNum = list(filter(is_odd, numList))
